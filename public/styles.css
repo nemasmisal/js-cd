@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  background: aliceblue;
+}
+p {
+  margin: 20px 50px;
+  padding: 10px;
+}
+.link-to-page {
+  margin: 0 auto;
+  font-size: large;
+  padding: 20px;
+}
+button:hover {
+  cursor: pointer;
+}
+a {
+  display: inline-block;
+  font-size: 0.7rem;
+  background: none;
+}
+.cookie-disclaimer {
+  display: grid;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  border: 5px solid #f7c413;
+  z-index: 1000001;
+  padding: 10px;
+  background:rgba(255,255,255, 0.9);
+  width: 211px;
+}
+.cookie-disclaimer p {
+  line-height: normal;
+  font-size: 0.7rem;
+  margin: 5px auto;
+  display: inline-block;
+  padding: 0;
+  background: none;
+}
+.cookie-disclaimer-accept-btn {
+  background: #f7c413;
+  margin: 10px auto;
+  display: block;
+  padding: 10px;
+  border: none;
+}
+.cookie-disclaimer-close-btn {
+  border: none;
+  background: none;
+  text-align: right;
+  display: block;
+  font-size: 18px;
+  padding: 2px;
+  justify-self: end;
+}
+.cookie-disclaimer-disabled {
+  display: none;
+}
